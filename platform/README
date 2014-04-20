@@ -2,4 +2,3 @@ The Eclipse platform .zip file is used as target platform while building
 the monitor application (RCP version of DDMS). The build script takes
 care of unzipping this file, and the Eclipse builder picks up the necessary
 jars and releases them as part of the RCP application.
-由于文件过大 split -b 45M org.eclipse.platform-3.7.2.zip 分解了
